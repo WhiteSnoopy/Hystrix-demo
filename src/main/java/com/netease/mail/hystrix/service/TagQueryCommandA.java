@@ -17,7 +17,7 @@ import com.netflix.hystrix.HystrixCommandProperties;
 import com.netflix.hystrix.HystrixThreadPoolKey;
 
 /**
- * 信号量
+ * 信号量隔离
  *
  * @author chanyun
  */

@@ -18,7 +18,7 @@ import com.netflix.hystrix.HystrixThreadPoolKey;
 import com.netflix.hystrix.HystrixThreadPoolProperties;
 
 /**
- * 线程
+ * 线程隔离
  *
  * @author chanyun
  */
