@@ -1,10 +1,4 @@
-/**
- * @(#)BaseAjaxController.java, 2018/4/23.
- * <p/>
- * Copyright 2018 Netease, Inc. All rights reserved.
- * NETEASE PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
- */
-package com.netease.mail.hystrix.controller;
+package com.chan.hystrix.controller;
 
 import org.apache.commons.lang.exception.ExceptionUtils;
 import org.slf4j.Logger;
@@ -12,8 +6,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.netease.mail.hystrix.constant.ResponseCode;
-import com.netease.mail.hystrix.meta.AjaxResult;
+import com.chan.hystrix.constant.ResponseCode;
+import com.chan.hystrix.meta.AjaxResult;
 
 public abstract class BaseAjaxController {
     private Logger logger = LoggerFactory.getLogger(BaseAjaxController.class);

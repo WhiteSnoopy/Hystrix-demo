@@ -1,15 +1,9 @@
-/**
- * @(#)HystrixConfigTest.java, 2018/12/19.
- * <p/>
- * Copyright 2018 Netease, Inc. All rights reserved.
- * NETEASE PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
- */
-package com.netease.mail.hystrix.service;
+package com.chan.hystrix.service;
 
 import java.util.Collections;
 import java.util.List;
 
-import com.netease.mail.hystrix.util.ApplicationContextHelper;
+import com.chan.hystrix.util.ApplicationContextHelper;
 import com.netflix.hystrix.HystrixCommand;
 import com.netflix.hystrix.HystrixCommandGroupKey;
 import com.netflix.hystrix.HystrixCommandKey;

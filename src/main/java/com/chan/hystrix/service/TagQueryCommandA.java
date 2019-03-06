@@ -1,15 +1,9 @@
-/**
- * @(#)TagQueryCommandA.java, 2019/1/6.
- * <p/>
- * Copyright 2019 Netease, Inc. All rights reserved.
- * NETEASE PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
- */
-package com.netease.mail.hystrix.service;
+package com.chan.hystrix.service;
 
 import java.util.Collections;
 import java.util.List;
 
-import com.netease.mail.hystrix.util.ApplicationContextHelper;
+import com.chan.hystrix.util.ApplicationContextHelper;
 import com.netflix.hystrix.HystrixCommand;
 import com.netflix.hystrix.HystrixCommandGroupKey;
 import com.netflix.hystrix.HystrixCommandKey;

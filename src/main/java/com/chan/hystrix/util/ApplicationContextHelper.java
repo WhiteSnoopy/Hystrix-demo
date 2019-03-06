@@ -1,10 +1,4 @@
-/**
- * @(#)ApplicationContextHelper.java, 2019/1/6.
- * <p/>
- * Copyright 2019 Netease, Inc. All rights reserved.
- * NETEASE PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
- */
-package com.netease.mail.hystrix.util;
+package com.chan.hystrix.util;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
@@ -12,7 +6,7 @@ import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Component;
 
 /**
- * @author chanyun(hzchenyun1@corp.netease.com)
+ * @author chanyun
  */
 @Component
 public class ApplicationContextHelper implements ApplicationContextAware {

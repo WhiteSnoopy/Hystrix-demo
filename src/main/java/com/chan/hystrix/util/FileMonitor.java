@@ -1,10 +1,4 @@
-/**
- * @(#)FileMonitor.java, 2019/1/6.
- * <p/>
- * Copyright 2019 Netease, Inc. All rights reserved.
- * NETEASE PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
- */
-package com.netease.mail.hystrix.util;
+package com.chan.hystrix.util;
 
 import java.io.IOException;
 import java.nio.file.FileSystems;
@@ -20,7 +14,7 @@ import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.support.PropertiesLoaderUtils;
 
 /**
- * @author chanyun(hzchenyun1@corp.netease.com)
+ * @author chanyun
  */
 public class FileMonitor {
 

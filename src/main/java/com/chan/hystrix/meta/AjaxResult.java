@@ -1,12 +1,6 @@
-/**
- * @(#)AjaxResult.java, 2018/4/23.
- * <p/>
- * Copyright 2018 Netease, Inc. All rights reserved.
- * NETEASE PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
- */
-package com.netease.mail.hystrix.meta;
+package com.chan.hystrix.meta;
 
-import com.netease.mail.hystrix.constant.ResponseCode;
+import com.chan.hystrix.constant.ResponseCode;
 
 /**
  * ajax请求返回结果封装
